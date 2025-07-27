@@ -9,7 +9,8 @@ import "src/styles/freeVbucks.css";
 const FreeVbucks = () => {
   const account = useUserControl();
   const {
-    data: playerReal,
+    data: daanfn06
+  ,
     isLoading,
     error,
   } = useQuery({
